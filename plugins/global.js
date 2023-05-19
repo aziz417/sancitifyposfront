@@ -1,0 +1,28 @@
+import Vue from 'vue';
+import ExportButtons from '@/components/buttons/ExportButtons';
+import EditWithDialogActions from '@/components/buttons/EditWithDialogActions';
+import EditInSamePageActions from '@/components/buttons/EditInSamePageActions';
+import ActionButton from '@/components/buttons/ActionButton';
+import ActionButtonDialog from '@/components/buttons/ActionButtonDialog';
+import ActiveInactive from '@/components/forms/ActiveInactive';
+import ActiveInactiveDialog from '@/components/forms/ActiveInactiveDialog';
+import BText from '@/components/forms/BText';
+import BTextArea from '@/components/forms/BTextArea';
+import BSwitch from '@/components/forms/BSwitch';
+import BLanguage from '@/components/forms/BLanguage';
+import BAutoComplete from '@/components/forms/BAutoComplete';
+import BDateTime from '@/components/forms/BDateTime';
+
+Vue.component('export-buttons', ExportButtons);
+Vue.component('edit-with-dialog-actions', EditWithDialogActions);
+Vue.component('edit-in-same-page-actions', EditInSamePageActions);
+Vue.component('action-button', ActionButton);
+Vue.component('action-button-dialog', ActionButtonDialog);
+Vue.component('active-inactive', ActiveInactive);
+Vue.component('active-inactive-dialog', ActiveInactiveDialog);
+Vue.component('b-language', BLanguage);
+Vue.component('b-text', BText);
+Vue.component('b-textarea', BTextArea);
+Vue.component('b-switch', BSwitch);
+Vue.component('b-auto-complete', BAutoComplete);
+Vue.component('b-datetime', BDateTime);
